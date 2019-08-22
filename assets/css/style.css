@@ -1,3 +1,10 @@
+/*
+    @author: Caren Briones <carenpbriones@gmail.com>
+    For use with Basic-Portfolio assignment pages.
+
+    August 22, 2019
+*/
+
 html, body{
     height: 100%;
 }
@@ -19,12 +26,24 @@ header{
     border-bottom: 3px solid #cccccc;
 }
 
+nav{
+    float: right;
+    right: 0px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
 section{
     width: 960px;
     margin: auto;
-    /* position: absolute; */
     height: 70px;
-    
+}
+
+h1{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0;
 }
 
 #my-name{
@@ -34,25 +53,17 @@ section{
     padding: 20px;
 }
 
-nav{
-    float: right;
-    /* position: absolute; */
-    right: 0px;
-    padding-top: 30px;
-    padding-right: 30px;
-}
-
 li{
     display: inline;
-}
-
-a{
-    color: #777777;
 }
 
 /* Retrieved from https://stackoverflow.com/questions/1936661/vertical-dividers-on-horizontal-ul-menu */
 li:not(:first-child):before {
     content: " | ";
+}
+
+a{
+    color: #777777;
 }
 
 .main-content{
@@ -69,13 +80,6 @@ li:not(:first-child):before {
 
 .sub-content{
     padding-top: 20px;
-}
-
-h1{
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 20px 0;
 }
 
 .page-title{
@@ -96,7 +100,7 @@ h1{
 }
 
 form{
-    padding: 20px;
+    padding: 20px 0;
 }
 
 input{
