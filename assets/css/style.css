@@ -8,7 +8,7 @@ body{
 header{
     background-color: #ffffff; 
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    position: static;
+    position: static; 
     height: 70px;
     border-bottom: 3px solid #cccccc;
 }
@@ -80,6 +80,12 @@ h1{
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+.about-me-text{
+    font-size: 20px;
 }
 
 form{
@@ -103,7 +109,7 @@ input{
 
 p{
     color: #777777;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 textarea{
