@@ -1,8 +1,14 @@
+html, body{
+    height: 100%;
+}
+
 body{
     background-image: url("../images/regal.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: auto;
     position: static;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -58,6 +64,7 @@ li:not(:first-child):before {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    flex: 1 0 auto;
 }
 
 .sub-content{
@@ -109,7 +116,7 @@ input{
 
 p{
     color: #777777;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 textarea{
@@ -118,10 +125,6 @@ textarea{
     resize: none;
     height: 200px;
     border-color: #dddddd;
-}
-
-footer{
-    background-color: #666666;
 }
 
 .portfolio-item{
@@ -150,6 +153,7 @@ footer{
     margin: auto;
     text-align: center;
     height: 70px;
+    flex-shrink: 0;
 }
 
 .footer-text{
