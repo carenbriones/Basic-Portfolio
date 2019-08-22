@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/leaves.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* Width is 920 to account for padding added in next line */
+    width: 920px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+header{
+    background-color: #ffffff; 
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.main-content{
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    overflow: auto;
+}
+
+.sub-content{
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    border-bottom: 3px solid #dddddd;
+    font-weight: bold;
+    font-size: 30px;
+    color: #4aaaa5;
+    padding: 20px;
+}
+
+#about-me-img{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #666666;
+}
+
+.portfolio-item{
+    float: left;
+}
