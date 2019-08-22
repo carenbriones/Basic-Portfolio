@@ -74,4 +74,19 @@ footer{
 
 .portfolio-item{
     float: left;
+    padding: 20px;
+    position: relative;
+}
+
+.portfolio-item-label{
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 30px;
+    width: 240px;
+    padding: 20px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 30px;
 }
