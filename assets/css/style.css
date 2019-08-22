@@ -1,10 +1,8 @@
 body{
-    background-image: url("../images/leaves.png");
+    background-image: url("../images/regal.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    /* Width is 920 to account for padding added in next line */
-    /* width: 960px;
-    padding: 0 20px; */
     margin: auto;
+    position: static;
 }
 
 header{
@@ -12,7 +10,7 @@ header{
     font-family: 'Georgia', Times, "Times New Roman", serif;
     position: static;
     height: 70px;
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 3px solid #cccccc;
 }
 
 section{
@@ -27,6 +25,7 @@ section{
     float: left;
     background-color: #4aaaa5;
     color: #ffffff; 
+    padding: 20px;
 }
 
 nav{
@@ -58,17 +57,18 @@ li:not(:first-child):before {
     padding: 0 20px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .sub-content{
-    padding: 20px;
+    padding-top: 20px;
 }
 
 h1{
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-weight: bold;
     font-size: 30px;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .page-title{
@@ -103,7 +103,7 @@ input{
 
 p{
     color: #777777;
-    line-height: 25px;
+    line-height: 35px;
 }
 
 textarea{
@@ -135,4 +135,18 @@ footer{
     color: #ffffff;
     position: absolute;
     bottom: 30px;
+}
+
+footer{
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 70px;
+}
+
+.footer-text{
+    color: #ffffff;
+    padding: 20px;
 }
