@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Basic portfolio pages using 
+Basic About Me, Portfolio, and Contact pages created using HTML and CSS.
